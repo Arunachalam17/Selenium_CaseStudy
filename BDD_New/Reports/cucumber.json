@@ -1,0 +1,68 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-01T03:17:14.096Z",
+        "line": 16,
+        "name": "Test the login page with valid details",
+        "description": "",
+        "id": "test-the-automationpractice-application;test-the-login-page-with-valid-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6314028900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Open chrome browser and cart url of the application",
+            "match": {
+              "location": "steps.Script2.open_chrome_browser_and_cart_url_of_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"block_top_menu\"]/ul/li[2]/a\"}\n  (Session info: chrome\u003d97.0.4692.99)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.8.1\u0027, revision: \u00276e95a6684b\u0027, time: \u00272017-12-01T18:33:54.468Z\u0027\nSystem info: host: \u0027LP-5CD119610D\u0027, ip: \u0027192.168.43.44\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\ARUNAC~1.ANN\\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:62752}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 34b25b50590a47ac3af96b7f82348eff\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"block_top_menu\"]/ul/li[2]/a}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat steps.Script2.select_the_product_and_add_to_cart(Script2.java:54)\r\n\tat ✽.Select the product and add to cart(file:///C:/Users/arunachalam.annad/eclipse-workspace/BDD_New/Feature/f5.feature:18)\r\n",
+              "duration": 35008000,
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "Select the product and add to cart",
+            "match": {
+              "location": "steps.Script2.select_the_product_and_add_to_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Added in Cart",
+            "match": {
+              "location": "steps.Script2.added_in_Cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Test the automationpractice application",
+    "description": "",
+    "id": "test-the-automationpractice-application",
+    "keyword": "Feature",
+    "uri": "file:Feature/f5.feature",
+    "tags": []
+  }
+]
